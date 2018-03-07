@@ -1,35 +1,57 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
   <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/reset.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 
   </head>
+
+
   <body>
 
-    <nav class="navbar navbar-default">
+<!--  navbar  -->
+
+    <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top" style = "border-bottom: 2px solid #ccc;">
             <div class="container">
                 <div class="navbar-header">
-                <a class="navbar-brand" href="#">Mayra Martinez</a>
+                <a id="logo" href="index.html">Mayra</a>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="nav-item" style="border-right: 1px solid #efefef;">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                   <li class="nav-item" style="border-right: 1px solid #efefef;">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li> 
                 </ul>
                 </div>
             </div>
             </nav>   
+
+            <br><br><br><br>
+
+ <!--  navbar  -->
+
             <div class="container">
                     <div class="row">
                       <div class="col-md-8">
@@ -52,57 +74,37 @@
                       </div>
                 
                       <div class="col-md-4">
-                        <div class="panel panel-default">
-                          <div class="panel-heading">
-                            <h3 class="panel-title">Panel</h3>
-                          </div>
-                        </div>
+                          <div class=" border-bottom border-info pb-4 mb-2">
+                              <span><h3>Connect</h3></span>
+                      </div>
+                      <div class="col-md">
+                          <button type="button" class="btn btn-md btn-primary">Link</button>
+                          <button type="button" class="btn btn-md btn-primary">Link</button>
+                          <button type="button" class="btn btn-md btn-primary">Link</button>
+                  </div>
                       </div>
                     </div>
                   </div>
 
 
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 
 
   <!--Footer-->
   <footer class="page-footer font-small indigo pt-0">
   
-      <!--Footer Links-->
       <div class="container-">
   
-          <!--First row-->
           <div class="row">
   
-              <!--First column-->
               <div class="col-md-12">
   
-                  <div class="mb-5 flex-center">
-  
-                      <!--Facebook-->
-                      <a class="fb-ic"><i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
-                      <!--Twitter-->
-                      <a class="tw-ic"><i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
-                      <!--Google +-->
-                      <a class="gplus-ic"><i class="fa fa-google-plus fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
-                      <!--Linkedin-->
-                      <a class="li-ic"><i class="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
-                      <!--Instagram-->
-                      <a class="ins-ic"><i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i></a>
-                      <!--Pinterest-->
-                      <a class="pin-ic"><i class="fa fa-pinterest fa-lg white-text fa-2x"> </i></a>
-                  </div>
               </div>
-              <!--/First column-->
+ 
           </div>
-          <!--/First row-->
+  
       </div>
-      <!--/Footer Links-->
+   
   
       <!--Copyright-->
       <div class="footer-copyright py-3 text-center">
